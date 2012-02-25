@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"phon",
+				"phoneUS"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"lab",
+				"label"
+			],
+			[
+				"e",
+				"echo	echo \"…\""
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"a",
+				"a: <a>"
+			],
+			[
+				"input",
+				"input: input - button"
+			],
+			[
+				"font",
+				"font: font-family: family"
+			],
+			[
+				"p",
+				"p: <p>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"todo",
+				"Todo: List All"
+			],
+			[
+				"bin	",
+				"Snippet: Simple Key Binding"
+			],
+			[
+				"",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"le",
+				"CSS Less-ish: Decompile"
+			],
+			[
+				"less",
+				"CSS Less-ish: Compile"
+			],
+			[
+				"mark",
+				"Markdown Preview: current file in browser"
+			],
+			[
+				"jq",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"jq u",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <head>"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntax cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"bindin",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"git",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git:",
+				"Github: Private Gist from Selection"
+			],
+			[
+				"synta java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"syntac",
+				"Set Syntax: CSS"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/new_site/php/includes/contact_form_constants.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/contact_form.php",
+		"/C/wamp/www/new_site/contact.php",
+		"/C/wamp/www/new_site/js/individuals/Contact.js",
+		"/C/wamp/www/new_site/php/includes/constants.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/js/validation/additional-methods.js",
+		"/C/wamp/www/new_site/css/styles.less",
+		"/D/Users/Alexis/Dropbox/www/new_site/js/validation/additional-methods.min.js",
+		"/C/wamp/www/new_site/php/contact_form.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.main.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/server.php",
+		"/C/wamp/www/new_site/resources.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/services.php",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zencoding/zen_settings.py",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/LESS/LESS.tmLanguage",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/CSS/CSS.tmLanguage",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Syntax.sublime-menu",
+		"/C/wamp/www/new_site/php/classes/class.Membership.php",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/CSS/CSS.tmLanguage.cache",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Pristine Packages/CSS.sublime-package",
+		"/D/Users/Alexis/Dropbox/www/new_site/css/styles.css",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/README.creole",
+		"/C/wamp/www/new_site/php/classes/class.newsletter.php",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/README.md",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/wamp/www/new_site/css/styles.css",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/HTML5/Elements/Document metadata/link rel=stylesheet.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/HTML5/Javascript Libraries/Google AJAX Libraries - jQuery.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/document-ready.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/event-change.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/event-click.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/package-metadata.json",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/simple-selector.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/event-live.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/$_ajax.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/.gitignore",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/wamp/www/new_site/css/text.css",
+		"/D/Users/Alexis/Dropbox/www/new_site/contact.php",
+		"/C/wamp/www/new_site/services.php",
+		"/C/wamp/www/new_site/php/classes/class.main.php",
+		"/C/wamp/www/new_site/php/wasdwasd.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/index.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/company.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/css/styles.less",
+		"/D/Users/Alexis/Desktop/plugins/PythonScript/lib/ModelineFoldmethod.py",
+		"/C/wamp/www/new_site/index_2.php",
+		"/C/wamp/www/new_site/php/vars.php",
+		"/D/Users/Alexis/Desktop/new  2.py",
+		"/D/Users/Alexis/Desktop/QC_PUB_mejias_A_Week1.xmp",
+		"/D/Users/Alexis/Desktop/plugins/ModelineParser.dll",
+		"/D/Users/Alexis/Desktop/plugins/PythonScript/lib/ModelineParser_dll.py",
+		"/C/cygwin/home/Alexis/.bashrc",
+		"/D/Program Files (x86)/Notepad++/plugins/NppTextFX.dll",
+		"/C/Users/Alexis/AppData/Roaming/Notepad++/plugins/config/ZenCodingPython/zencoding/zen_editor.py",
+		"/D/Users/Alexis/Dropbox/www/new_site/htaccess",
+		"/D/Users/Alexis/Dropbox/www/new_site/.htaccess",
+		"/D/Users/Alexis/Dropbox/www/new_site/admin/.htaccess",
+		"/D/Users/Alexis/Dropbox/www/new_site/file_uplad_test/uploader.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/file_uplad_test/upload.html",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/LocalSettings.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/main_functions.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/cygwin/etc/hosts",
+		"/C/Ampps/www/cgi-bin/perlinfo.pl",
+		"/D/Users/Alexis/Dropbox/homepage/Homepage.html",
+		"/C/Windows/winsxs/amd64_microsoft-windows-w..nfrastructure-other_31bf3856ad364e35_6.1.7600.16385_none_6079f415110c0210/hosts",
+		"/C/Windows/System32/drivers/etc/lmhosts.sam",
+		"/D/Users/Alexis/Desktop/setpoint632_smart.exe",
+		"/D/Users/Alexis/Dropbox/www/new_site/README.md",
+		"/D/Users/Alexis/Desktop/dir",
+		"/C/Users/Alexis/.gitconfig",
+		"/C/cygwin/home/Alexis/.gitconfig",
+		"/C/Program Files (x86)/Git/etc/gitconfig",
+		"/D/Program Files (x86)/Git/etc/gitconfig",
+		"/C/cygwin/etc/skel/.bashrc",
+		"/C/Users/Alexis/.ssh/id_rsa.pub",
+		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/index.html",
+		"/D/Users/Alexis/Dropbox/www/Experiments/transit/transit test.html",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/cygwin/home/Alexis/.ssh/id_rsa.pub",
+		"/D/Users/Alexis/Desktop/test_project/index.html",
+		"/C/cygwin/etc/defaults/etc/skel/.bashrc",
+		"/D/Users/Alexis/Dropbox/www/Experiments/README",
+		"/D/Users/Alexis/Dropbox/www/Experiments/index.html",
+		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/app/app.js",
+		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/app/events.js",
+		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/app/view.js",
+		"/D/Users/Alexis/Desktop/transit test.html",
+		"/D/Users/Alexis/Dropbox/phonegap db/index.js",
+		"/D/Users/Alexis/Dropbox/phonegap db/index.html",
+		"/D/Alexis/workspace/helloPhoneGap2/assets/www/index.html",
+		"/D/Alexis/workspace/helloPhoneGap2/assets/www/index.js",
+		"/D/Users/Alexis/Desktop/PhoneGap/PhoneGap/Android-PhoneGap-AlternativeTo/assets/www/index.html",
+		"/C/wamp/www/ci/application/config/index.html",
+		"/C/wamp/www/ci/application/config/autoload.php",
+		"/C/wamp/www/ci/application/index.html",
+		"/C/wamp/www/ci/application/controllers/index.html",
+		"/C/wamp/www/ci/application/views/test.php",
+		"/C/wamp/www/ci/application/controllers/welcome.php",
+		"/C/wamp/www/new_site/php/main_functions.php",
+		"/D/Users/Alexis/Desktop/improved_swagbucks.user.js",
+		"/C/wamp/www/new_site/index.php",
+		"/D/Users/Alexis/Desktop/yt-link-sirius.js",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/D/Users/Alexis/Desktop/paper/index.html",
+		"/D/Users/Alexis/Desktop/new_site.lnk"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\new_site"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"zip",
+			"');",
+			"			<",
+			">';",
+			"filename",
+			">''",
+			"5",
+			"html5",
+			"w",
+			"#rig",
+			"min",
+			"map",
+			"\": [\"",
+			"find_under_expand",
+			"\"ctrl+d\"",
+			"\"ctrl+b\"",
+			"ctrl+b\"",
+			"\"ctrl+k\"",
+			"],",
+			"transform",
+			"tt",
+			"http",
+			"passi",
+			"br",
+			"right",
+			"			",
+			"ceo",
+			"5",
+			"promp",
+			"post",
+			"upload",
+			">",
+			"'init'",
+			"init()",
+			"eventli",
+			"phonegap",
+			"wrap",
+			"input",
+			"					<div class=\"grid_3 last\" id=\"social_media\">\n						<h4>Find us on...</h4>\n						<a href=\"\"><img src=\"images/facebook.png\" alt=\"\" width=\"64\" height=\"64\"/></a>\n						<a href=\"http://twitter.com/#!/controlelectrop\"><img src=\"images/twitter.png\" alt=\"\" width=\"64\" height=\"64\"/></a>\n						<a href=\"http://www.linkedin.com/company/671398\"><img src=\"images/linkedin.png\" alt=\"\" width=\"64\" height=\"64\"/></a>\n					</div>",
+			"Oswal",
+			"oswal",
+			"h1",
+			"5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"5"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"form_",
+				"new_site/php/includes/contact_form_constants.php"
+			],
+			[
+				"cons",
+				"new_site/php/includes/constants.php"
+			],
+			[
+				"con",
+				"new_site/php/contact_form.php"
+			],
+			[
+				"stylele",
+				"new_site/css/styles.less"
+			],
+			[
+				"conjs",
+				"new_site/js/individuals/Contact.js"
+			],
+			[
+				"stylless",
+				"new_site/css/styles.less"
+			],
+			[
+				"resp",
+				"new_site/resources.php"
+			],
+			[
+				"conta",
+				"new_site/php/contact_form.php"
+			],
+			[
+				"st",
+				"new_site/css/styles.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true
+}

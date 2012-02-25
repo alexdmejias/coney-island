@@ -1,0 +1,62 @@
+<!doctype html>
+<html manifest="index.appcache">
+<head>
+    <meta charset="utf-8">
+    <title>LungoJS</title>
+    <meta name="description" content="">
+    <meta name="author" content="Javier Jiménez Villar (@soyjavi)">
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icon@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icon.png">
+    <link rel="apple-touch-startup-image" href="assets/images/default.png">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./lungo.js/lungo-1.1.2.min.css">
+    <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
+</head>
+
+<body class="app">
+
+    <section id="hello_world">
+        <header data-title="Visit Coney Island" class="red">
+            <a href="#" data-target="aside" data-icon="files" class="button red"></a>
+
+            <nav class="onright">
+                <a data-back="left blue" class="" ></a>
+                <a href="#page-welcome" data-target="article" class="current" data-icon="home"></a>
+            </nav>
+        </header>
+
+        <!-- <footer></footer> -->
+
+        <aside class="blue">
+            <a href="#page-welcome" data-title="wasdasdaw" data-target="article" data-icon="home">page #1</a>
+            <a href="#page-coupons" data-title="couponsttt" data-target="article" data-icon="home">couponssss</a>
+            <a href="#page-history" data-title="History" data-target="article" data-icon="home">history</a>
+        </aside>
+
+        <article id="page-welcome">welcome to Coney Island        </article>
+        <article id="page-coupons" class="list"><p> these are some of the coupons avalible right now</p>
+            <li>one</li>
+            <li data-icon="map"><a href="" title=""></a> <b>nathans</b> - one<small>get 50% off </small></li>
+        </article>
+        <article id="page-history">historical facts</article>
+    </section>
+
+    <!-- LungoJS (Production mode) -->
+    <script src="lungo.js/lungo-1.1.2.packed.js"></script>
+    <!-- LungoJS - Sandbox App -->
+    <script src="app/app.js"></script>
+    <script src="app/data.js"></script>
+    <script src="app/events.js"></script>
+    <script src="app/services.js"></script>
+    <script src="app/view.js"></script>
+</body>
+</html>
