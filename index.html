@@ -28,7 +28,7 @@
         <header data-title="Visit Coney Island" class="red">
             <a href="#" data-target="aside" data-icon="files" class="button red"></a>
             <nav class="onright">
-                <a href="#page-welcome" data-target="article" class="current" data-icon="home"></a>
+                <a href="#page-welcome" data-target="article" class="current" data-icon="home disabled"></a>
             </nav>
         </header>
 
@@ -39,49 +39,144 @@
             <a href="#page-history" data-title="History" data-target="article" data-icon="home">History</a>
             <a href="#page-venues" data-title="Venues" data-target="article" data-icon="pushpin">Venues</a>
             <a href="#page-coupons" data-title="Coupons" data-target="article" data-icon="home">Coupons</a>
-            <a href="#page-informtion" data-title="Information" data-target="article" data-icon="info">Information</a>
+            <a href="#page-events" data-title="Upcoming Events" data-target="article" data-icon="calendar">Events</a>
+            <a href="#page-community" data-title="Community" data-target="article" data-icon="chat">Community</a>
+            <a href="#page-information" data-title="Information" data-target="article" data-icon="info">Information</a>
         </aside>
 
 <!-- WELCOME -->
         <article id="page-welcome">
             <h1>Welcome to the Coney Island mobile website</h1>
             <p>this application will guide you through an awesome coney island experience</p>
+            <a href="google.com">Click here to explore Coney Island through a SCVNGR challange</a>
         </article>
 
 <!-- HISTORY -->        
-        <article id="page-history" class="list scrollable">
-            <ul class="round indented">
-                <li data-icon="clock"><b>The beginning</b><small>Learn about how it all started</small></li>
-                <li data-icon="clock"><b>The Empire</b><small>Why was Coney Island called the Nickle empire?</small></li>
-                <li data-icon="clock"><b>During the Great Depression</b><small>Learn about how it all started</small></li>
-                <li data-icon="clock"><b>Coney Island now</b><small>What are the ongoing projects?</small></li>
-                <li data-icon="clock"><b>Great Expectation</b><small>What awaits Coney Island in the future</small></li>
-            </ul>
+        <article id="page-history" class="list rounded scrollable">
+            <div class="indented">
+                <ul>
+                    <li d ata-icon="clock"><b>The beginning</b><small>Learn about how it all started</small></li>
+                    <li data-icon="clock"><b>The Empire</b><small>Why was Coney Island called the Nickle empire?</small></li>
+                    <li data-icon="clock"><b>During the Great Depression</b><small>Learn about how it all started</small></li>
+                    <li data-icon="clock"><b>Coney Island now</b><small>What are the ongoing projects?</small></li>
+                    <li data-icon="clock"><b>Great Expectation</b><small>What awaits Coney Island in the future</small></li>
+                </ul>
+            </div>
         </article>
+<!-- VENUES -->
+        <article id="page-venues" class="list rounded scrollable">
+            <div class="indented">
+                <ul >
+                    <li data-search="Search: "></li>
+                    <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">100</div>
+                        <div class="onright bubble red" data-icon="message mini">5</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li>
+                    <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">10</div>
+                        <div class="onright bubble red" data-icon="message mini">55</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li>
+                     <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">88</div>
+                        <div class="onright bubble red" data-icon="message mini">10</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li>
+                    <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">30</div>
+                        <div class="onright bubble red" data-icon="message mini">2</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li> 
+                    <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">30</div>
+                        <div class="onright bubble red" data-icon="message mini">1</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li>
+                    <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">100</div>
+                        <div class="onright bubble red" data-icon="message mini">5</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li>
+                    <li data-icon="pushpin">
+                        <div class="onright bubble green" data-icon="message mini">100</div>
+                        <div class="onright bubble red" data-icon="message mini">5</div>                        
+                        <b>Nathans</b> - <em>(555)543-2154</em> <small>Come here to get some hotdogs</small>
+                    </li>                   
+                </ul>
+            </div>
+        </article>        
 
 <!-- COUPONS -->
-        <article id="page-coupons" class="list scrollable">
-            <ul class="round indented">
-                <li data-icon="map">
-                    <div class="onright bubble red">50% off</div>
-                    <b>nathans</b> - one<small>get 50% off </small>
-                </li>
-                <li data-icon="map" class="green">
-                    <div class="onright bubble green">FREE</div>
-                    <b>nathans</b> - one<small>get 50% off </small>
-                </li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
-            </ul>
+        <article id="page-coupons" class="list rounded scrollable">
+            <div class="indented">
+                <ul>
+                    <li class="anchor">Avalible Now</li>
+                    <li data-icon="map">
+                        <div class="onright bubble red">50% off</div>
+                        <b>nathans</b> - one<small>get 50% off </small>
+                    </li>
+                    <li data-icon="map" class="green">
+                        <div class="onright bubble green">FREE</div>
+                        <b>nathans</b> - one<small>get 50% off </small>
+                    </li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li class="anchor">Avalible Soon</li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                    <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                </ul>
+            </div>
         </article>
+<!-- EVENTS -->        
+        <article id="page-events" class="list rounded scrollable">
+            <div class="indented">
+                <ul>
+                    <li>this is a test</li>
+                </ul>
+            </div>
+        </article>
+<!-- COMMUNITY -->
+        <article id="page-community" class="list rounded scrollable">
+            <div class="indented">
+                <ul>
+                    <li>
+                        <b>Twitter</b><small>See what other people are saying about Coney Island</small>
+                    </li>
+                    <li>
+                        <b>Flickr</b><small>See Coney Island through pictures</small>
+                    </li>
+                    <li>
+                        <b>Facebook</b><small>Tell you friends about Coney Island</small>
+                    </li>
+                </ul>
+            </div>
+        </article>
+<!-- INFORMATION -->
+        <article id="page-information" class="list rounded scrollable">
+            <div class="indented">
+                <ul>
+                    <li data-icon="info mini">In case of emergency always call 911</li>
+                    <li class="anchor">Other Agencies</li>
+                    <li>
+                        <b>Coast Guard</b> - <em>(531)784-0012</em>
+                    </li>
+                        
+                    <li>
+                        <b>MTA Police</b> - <em>(531)554-6812</em>
+                    </li>
+                    <li>
+                        <b>MTA</b> - <em>(531)112-8754</em>
+                    </li>
+                </ul>
+            </div>
+        </article>        
     </section>
 
     <!-- LungoJS (Production mode) -->

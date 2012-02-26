@@ -60,14 +60,22 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html manifest=\"index.appcache\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>LungoJS</title>\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"Javier Jiménez Villar (@soyjavi)\">\n    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->\n    <meta name=\"HandheldFriendly\" content=\"True\">\n    <meta name=\"MobileOptimized\" content=\"320\">\n    <meta http-equiv=\"cleartype\" content=\"on\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n    <!-- For iPhone 4 with high-resolution Retina display: -->\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"assets/images/icon@2x.png\">\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"assets/images/icon-72.png\">\n    <link rel=\"apple-touch-icon-precomposed\" href=\"assets/images/icon.png\">\n    <link rel=\"apple-touch-startup-image\" href=\"assets/images/default.png\">\n    <!-- Main Stylesheet -->\n    <link rel=\"stylesheet\" href=\"./lungo.js/lungo-1.1.2.min.css\">\n    <link rel=\"stylesheet\" href=\"./lungo.js/lungo.theme.default.css\">\n</head>\n\n<body class=\"app\">\n\n    <section id=\"hello_world\">\n        <header data-title=\"Visit Coney Island\" class=\"red\">\n            <a href=\"#\" data-target=\"aside\" data-icon=\"files\" class=\"button red\"></a>\n\n            <nav class=\"onright\">\n                <a href=\"#back\" data-target=\"section\" class=\"\"title=\"\"></a>\n                <a href=\"#page-welcome\" data-target=\"article\" class=\"current\" data-icon=\"home\"></a>\n            </nav>\n        </header>\n\n        <!-- <footer></footer> -->\n\n        <aside class=\"blue\">\n            <a href=\"#page-welcome\" data-title=\"Welcome\" data-target=\"article\" data-icon=\"home\">Welcome</a>\n            <a href=\"#page-coupons\" data-title=\"Guide\" data-target=\"article\" data-icon=\"home\">Guide</a>\n            <a href=\"#page-coupons\" data-title=\"Guide\" data-target=\"article\" data-icon=\"home\">couponssss</a>\n            <a href=\"#page-history\" data-title=\"History\" data-target=\"article\" data-icon=\"home\">history</a>\n        </aside>\n\n        <article id=\"page-welcome\">\n            \n        </article>\n\n        <article id=\"page-coupons\" class=\"list\"><p> these are some of the coupons avalible right now</p>\n            <li>one</li>\n            <li data-icon=\"map\"><a href=\"\" title=\"\"></a> <b>nathans</b> - one<small>get 50% off </small></li>\n        </article>\n        <article id=\"page-history\">historical facts</article>\n    </section>\n\n    <!-- LungoJS (Production mode) -->\n    <script src=\"lungo.js/lungo-1.1.2.packed.js\"></script>\n    <!-- LungoJS - Sandbox App -->\n    <script src=\"app/app.js\"></script>\n    <script src=\"app/data.js\"></script>\n    <script src=\"app/events.js\"></script>\n    <script src=\"app/services.js\"></script>\n    <script src=\"app/view.js\"></script>\n</body>\n</html>\n",
+			"contents": "<!doctype html>\n<html manifest=\"index.appcache\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>LungoJS</title>\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"Javier Jiménez Villar (@soyjavi)\">\n    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->\n    <meta name=\"HandheldFriendly\" content=\"True\">\n    <meta name=\"MobileOptimized\" content=\"320\">\n    <meta http-equiv=\"cleartype\" content=\"on\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n    <!-- For iPhone 4 with high-resolution Retina display: -->\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"assets/images/icon@2x.png\">\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"assets/images/icon-72.png\">\n    <link rel=\"apple-touch-icon-precomposed\" href=\"assets/images/icon.png\">\n    <link rel=\"apple-touch-startup-image\" href=\"assets/images/default.png\">\n    <!-- Main Stylesheet -->\n    <link rel=\"stylesheet\" href=\"./lungo.js/lungo-1.1.2.min.css\">\n    <link rel=\"stylesheet\" href=\"./lungo.js/lungo.theme.default.css\">\n</head>\n\n<body class=\"app\">\n\n    <section id=\"hello_world\">\n        <header data-title=\"Visit Coney Island\" class=\"red\">\n            <a href=\"#\" data-target=\"aside\" data-icon=\"files\" class=\"button red\"></a>\n            <nav class=\"onright\">\n                <a href=\"#page-welcome\" data-target=\"article\" class=\"current\" data-icon=\"home\"></a>\n            </nav>\n        </header>\n\n        <!-- <footer></footer> -->\n\n        <aside>\n            <a href=\"#page-welcome\" data-title=\"Welcome\" data-target=\"article\" data-icon=\"home\">Welcome</a>\n            <a href=\"#page-history\" data-title=\"History\" data-target=\"article\" data-icon=\"home\">History</a>\n            <a href=\"#page-venues\" data-title=\"Venues\" data-target=\"article\" data-icon=\"pushpin\">Venues</a>\n            <a href=\"#page-coupons\" data-title=\"Coupons\" data-target=\"article\" data-icon=\"home\">Coupons</a>\n            <a href=\"#page-informtion\" data-title=\"Information\" data-target=\"article\" data-icon=\"info\">Information</a>\n        </aside>\n\n<!-- WELCOME -->\n        <article id=\"page-welcome\">\n            <h1>Welcome to the Coney Island mobile website</h1>\n            <p>this application will guide you through an awesome coney island experience</p>\n        </article>\n\n<!-- HISTORY -->        \n        <article id=\"page-history\" class=\"list rounded scrollable\">\n            <div class=\"indented\">\n                <ul>\n                    <li d ata-icon=\"clock\"><b>The beginning</b><small>Learn about how it all started</small></li>\n                    <li data-icon=\"clock\"><b>The Empire</b><small>Why was Coney Island called the Nickle empire?</small></li>\n                    <li data-icon=\"clock\"><b>During the Great Depression</b><small>Learn about how it all started</small></li>\n                    <li data-icon=\"clock\"><b>Coney Island now</b><small>What are the ongoing projects?</small></li>\n                    <li data-icon=\"clock\"><b>Great Expectation</b><small>What awaits Coney Island in the future</small></li>\n                </ul>\n            </div>\n        </article>\n<!-- VENUES -->\n        <article id=\"page-venues\" class=\"list rounded scrollable\">\n            <ul class=\"round indented\">\n                <li data-search=\"Search: \"></li>\n            </ul>\n        </article>        \n\n<!-- COUPONS -->\n        <article id=\"page-coupons\" class=\"list rounded scrollable\">\n            <ul class=\"round indented\">\n                <li class=\"anchor\">Avalible Now</li>\n                <li data-icon=\"map\">\n                    <div class=\"onright bubble red\">50% off</div>\n                    <b>nathans</b> - one<small>get 50% off </small>\n                </li>\n                <li data-icon=\"map\" class=\"green\">\n                    <div class=\"onright bubble green\">FREE</div>\n                    <b>nathans</b> - one<small>get 50% off </small>\n                </li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li class=\"anchor\">Avalible Soon</li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n                <li data-icon=\"map\"> <b>nathans</b> - one<small>get 50% off </small></li>\n            </ul>\n        </article>\n    </section>\n\n    <!-- LungoJS (Production mode) -->\n    <script src=\"lungo.js/lungo-1.1.2.packed.js\"></script>\n    <!-- LungoJS - Sandbox App -->\n    <script src=\"app/app.js\"></script>\n    <script src=\"app/data.js\"></script>\n    <script src=\"app/events.js\"></script>\n    <script src=\"app/services.js\"></script>\n    <script src=\"app/view.js\"></script>\n</body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 2973,
-			"file_write_time": 129746895554990234,
+			"file_size": 5432,
+			"file_write_time": 129746981771660156,
 			"settings":
 			{
-				"buffer_size": 2967,
+				"buffer_size": 5443,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default (Windows).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 13768,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -82,9 +90,21 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"remo",
 				"Package Control: Remove Package"
@@ -94,16 +114,8 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
 				"ftp",
 				"SFTP: Show Panel"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"php",
@@ -194,10 +206,6 @@
 				"Set Syntax: HTML5"
 			],
 			[
-				"pack",
-				"Package Control: Install Package"
-			],
-			[
 				"packa",
 				"Package Control: List Packages"
 			],
@@ -242,7 +250,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 366.0
 	},
 	"console":
 	{
@@ -259,6 +267,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
 		"/C/wamp/www/new_site/php/includes/contact_form_constants.php",
 		"/D/Users/Alexis/Dropbox/www/new_site/php/contact_form.php",
 		"/C/wamp/www/new_site/contact.php",
@@ -380,6 +389,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open files>",
+			"<open folders>",
 			"C:\\wamp\\www\\new_site"
 		]
 	},
@@ -388,6 +399,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"map",
+			"small",
+			"<a href=\"\" title=\"\"></a>",
+			"<a href=\"\" title=\"\">",
+			"bubb",
+			"data-back",
 			"left",
 			"back",
 			"a",
@@ -441,6 +458,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"clock",
+			"",
 			"5"
 		],
 		"reverse": true,
@@ -460,15 +479,28 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2967,
+						"buffer_size": 5443,
 						"regions":
 						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										2470,
+										2470
+									]
+								],
+								"scope": "mark"
+							}
 						},
 						"selection":
 						[
 							[
-								2255,
-								2255
+								3476,
+								3370
 							]
 						],
 						"settings":
@@ -480,13 +512,47 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 524.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default (Windows).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 13768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10855,
+								10859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AAAPackageDev/Support/Sublime Key Map.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
 					"file": "/D/Users/Alexis/Desktop/TapQuo-Lungo.js-97d93ce/examples/kitchen-sink/index.html",
 					"settings":
 					{
@@ -497,8 +563,8 @@
 						"selection":
 						[
 							[
-								20392,
-								20392
+								18521,
+								18525
 							]
 						],
 						"settings":
@@ -508,7 +574,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5780.0,
+						"translation.y": 4850.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -533,11 +599,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -547,13 +620,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.sftp":
-	{
-		"height": 100.0
-	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
