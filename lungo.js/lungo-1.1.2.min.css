@@ -129,7 +129,8 @@ a.grey,.grey{background-color:#cccccc;}
 a.grey:active{background-color:#b5b5b5;}
 a.black,.grey{background-color:#000000;}
 a.black:active{background-color:#000000;}
-a.red,.red{background-color:#e33100;}
+/*a.red,.red{background-color:#e33100;}*/
+a.red,.red{background-color:rgb(255,29,37);}
 a.red:active{background-color:#c5280f;}
 a.lightgreen,.lightgreen{background-color:#91bd09;}
 a.lightgreen:active{background-color:#7ea41a;}
