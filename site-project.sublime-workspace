@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"h2",
+				"H2"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
 				"phon",
 				"phoneUS"
 			],
@@ -36,10 +44,6 @@
 				"_POST"
 			],
 			[
-				"a",
-				"a: <a>"
-			],
-			[
 				"input",
 				"input: input - button"
 			],
@@ -55,13 +59,40 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "<!doctype html>\n<html manifest=\"index.appcache\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>LungoJS</title>\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"Javier Jiménez Villar (@soyjavi)\">\n    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->\n    <meta name=\"HandheldFriendly\" content=\"True\">\n    <meta name=\"MobileOptimized\" content=\"320\">\n    <meta http-equiv=\"cleartype\" content=\"on\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n    <!-- For iPhone 4 with high-resolution Retina display: -->\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"assets/images/icon@2x.png\">\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"assets/images/icon-72.png\">\n    <link rel=\"apple-touch-icon-precomposed\" href=\"assets/images/icon.png\">\n    <link rel=\"apple-touch-startup-image\" href=\"assets/images/default.png\">\n    <!-- Main Stylesheet -->\n    <link rel=\"stylesheet\" href=\"./lungo.js/lungo-1.1.2.min.css\">\n    <link rel=\"stylesheet\" href=\"./lungo.js/lungo.theme.default.css\">\n</head>\n\n<body class=\"app\">\n\n    <section id=\"hello_world\">\n        <header data-title=\"Visit Coney Island\" class=\"red\">\n            <a href=\"#\" data-target=\"aside\" data-icon=\"files\" class=\"button red\"></a>\n\n            <nav class=\"onright\">\n                <a href=\"#back\" data-target=\"section\" class=\"\"title=\"\"></a>\n                <a href=\"#page-welcome\" data-target=\"article\" class=\"current\" data-icon=\"home\"></a>\n            </nav>\n        </header>\n\n        <!-- <footer></footer> -->\n\n        <aside class=\"blue\">\n            <a href=\"#page-welcome\" data-title=\"Welcome\" data-target=\"article\" data-icon=\"home\">Welcome</a>\n            <a href=\"#page-coupons\" data-title=\"Guide\" data-target=\"article\" data-icon=\"home\">Guide</a>\n            <a href=\"#page-coupons\" data-title=\"Guide\" data-target=\"article\" data-icon=\"home\">couponssss</a>\n            <a href=\"#page-history\" data-title=\"History\" data-target=\"article\" data-icon=\"home\">history</a>\n        </aside>\n\n        <article id=\"page-welcome\">\n            \n        </article>\n\n        <article id=\"page-coupons\" class=\"list\"><p> these are some of the coupons avalible right now</p>\n            <li>one</li>\n            <li data-icon=\"map\"><a href=\"\" title=\"\"></a> <b>nathans</b> - one<small>get 50% off </small></li>\n        </article>\n        <article id=\"page-history\">historical facts</article>\n    </section>\n\n    <!-- LungoJS (Production mode) -->\n    <script src=\"lungo.js/lungo-1.1.2.packed.js\"></script>\n    <!-- LungoJS - Sandbox App -->\n    <script src=\"app/app.js\"></script>\n    <script src=\"app/data.js\"></script>\n    <script src=\"app/events.js\"></script>\n    <script src=\"app/services.js\"></script>\n    <script src=\"app/view.js\"></script>\n</body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 2973,
+			"file_write_time": 129746895554990234,
+			"settings":
+			{
+				"buffer_size": 2967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Users/Alexis/Desktop/TapQuo-Lungo.js-97d93ce/examples/kitchen-sink/index.html",
+			"settings":
+			{
+				"buffer_size": 26795,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"list",
 				"Package Control: List Packages"
@@ -211,7 +242,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -357,6 +388,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"left",
+			"back",
+			"a",
 			"zip",
 			"');",
 			"			<",
@@ -418,8 +452,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2255,
+								2255
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Users/Alexis/Desktop/TapQuo-Lungo.js-97d93ce/examples/kitchen-sink/index.html",
+					"settings":
+					{
+						"buffer_size": 26795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20392,
+								20392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5780.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -518,7 +611,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 262.0,
 	"status_bar_visible": true
 }

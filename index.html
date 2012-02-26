@@ -27,27 +27,61 @@
     <section id="hello_world">
         <header data-title="Visit Coney Island" class="red">
             <a href="#" data-target="aside" data-icon="files" class="button red"></a>
-
             <nav class="onright">
-                <a href="#back" data-target="section" class=""title=""></a>
                 <a href="#page-welcome" data-target="article" class="current" data-icon="home"></a>
             </nav>
         </header>
 
         <!-- <footer></footer> -->
 
-        <aside class="blue">
-            <a href="#page-welcome" data-title="wasdasdaw" data-target="article" data-icon="home">page #1</a>
-            <a href="#page-coupons" data-title="couponsttt" data-target="article" data-icon="home">couponssss</a>
-            <a href="#page-history" data-title="History" data-target="article" data-icon="home">history</a>
+        <aside>
+            <a href="#page-welcome" data-title="Welcome" data-target="article" data-icon="home">Welcome</a>
+            <a href="#page-history" data-title="History" data-target="article" data-icon="home">History</a>
+            <a href="#page-venues" data-title="Venues" data-target="article" data-icon="pushpin">Venues</a>
+            <a href="#page-coupons" data-title="Coupons" data-target="article" data-icon="home">Coupons</a>
+            <a href="#page-informtion" data-title="Information" data-target="article" data-icon="info">Information</a>
         </aside>
 
-        <article id="page-welcome">welcome to Coney Island        </article>
-        <article id="page-coupons" class="list"><p> these are some of the coupons avalible right now</p>
-            <li>one</li>
-            <li data-icon="map"><a href="" title=""></a> <b>nathans</b> - one<small>get 50% off </small></li>
+<!-- WELCOME -->
+        <article id="page-welcome">
+            <h1>Welcome to the Coney Island mobile website</h1>
+            <p>this application will guide you through an awesome coney island experience</p>
         </article>
-        <article id="page-history">historical facts</article>
+
+<!-- HISTORY -->        
+        <article id="page-history" class="list scrollable">
+            <ul class="round indented">
+                <li data-icon="clock"><b>The beginning</b><small>Learn about how it all started</small></li>
+                <li data-icon="clock"><b>The Empire</b><small>Why was Coney Island called the Nickle empire?</small></li>
+                <li data-icon="clock"><b>During the Great Depression</b><small>Learn about how it all started</small></li>
+                <li data-icon="clock"><b>Coney Island now</b><small>What are the ongoing projects?</small></li>
+                <li data-icon="clock"><b>Great Expectation</b><small>What awaits Coney Island in the future</small></li>
+            </ul>
+        </article>
+
+<!-- COUPONS -->
+        <article id="page-coupons" class="list scrollable">
+            <ul class="round indented">
+                <li data-icon="map">
+                    <div class="onright bubble red">50% off</div>
+                    <b>nathans</b> - one<small>get 50% off </small>
+                </li>
+                <li data-icon="map" class="green">
+                    <div class="onright bubble green">FREE</div>
+                    <b>nathans</b> - one<small>get 50% off </small>
+                </li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+                <li data-icon="map"> <b>nathans</b> - one<small>get 50% off </small></li>
+            </ul>
+        </article>
     </section>
 
     <!-- LungoJS (Production mode) -->
