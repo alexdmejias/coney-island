@@ -42,9 +42,9 @@
 }
 /* @group <header> & <footer> & <article> */
 header {
-  background-color: #91bd09;
-  border-top: 1px solid #b7de3f;
-  border-bottom: 1px solid #758e29;
+  background-color: #000;
+  border-top: 1px solid #f74536;
+  border-bottom: 1px solid #f74536;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 footer {
@@ -53,7 +53,7 @@ footer {
 }
 .title {
   color: #ffffff;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px #000;
 }
 article {
   background-color: #f9f9f9;
@@ -232,12 +232,20 @@ header .bubble.count {
 
 /*MINE MODS*/
 /*COLORS*/
-a.red,.red{background-color:rgb(255,29,37);}
+a.coney,.coney{background-color:rgb(255,29,37);}
+a.lightconey,.lightconey{background-color:#f74536;}
+
+
+
 
 article{
-background-image: url('../assets/images/background-05.png');
+background-image: url('../assets/images/bg-01.png');
 background-position: center center;
-background-position:no-repeat;
+background-repeat:no-repeat;
+}
+
+article#page-welcome{
+  background-image: url('../assets/images/bg-02.png');
 }
 header .title,footer .title{
   color:#fff;
@@ -246,7 +254,29 @@ header .title,footer .title{
   font-stretch:expanded;
 }
 
+h1{
+  font-family:"trade gothic", Helvetica,Arial;
+  font-size:265%;
+  width: 65%;
+  color: #fff;
+  background-color:#000;
+  margin: 10% auto 5%;
+  padding: 3% 8%;
+  text-align: center;
+  text-shadow:-2px 2px 1px red;
+}
 
+#page-welcome .welcome-info{
+  width:65%;
+  background-color:#fff;
+  margin:5% auto;
+  text-align: center;
+  padding: 3% 8%;
+  font-weight:bold;
+  font-size:134%
+}
+#page-welcome .welcome-info a{
+  color: red;
 
-
+}
 
