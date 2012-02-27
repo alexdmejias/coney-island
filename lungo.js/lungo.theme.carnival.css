@@ -260,7 +260,7 @@ h1{
   width: 65%;
   color: #fff;
   background-color:#000;
-  margin: 10% auto 5%;
+  margin: 10% auto 0;
   padding: 3% 8%;
   text-align: center;
   text-shadow:-2px 2px 1px red;
@@ -269,14 +269,32 @@ h1{
 #page-welcome .welcome-info{
   width:65%;
   background-color:#fff;
-  margin:5% auto;
+  margin:3% auto;
   text-align: center;
-  padding: 3% 8%;
+  padding: 2% 8%;
   font-weight:bold;
-  font-size:134%
+  font-size:1.5625em;
 }
 #page-welcome .welcome-info a{
   color: red;
 
 }
+@media only screen and (max-width:768px) {
+  article#page-welcome{
+  /*background-image: url('../assets/images/bg-02.png');*/
+  }
+}
 
+@media only screen and (max-width: 480px) {
+/*  #page-welcome .welcome-info{
+    font-size:134%;
+  }*/
+article{
+  background-image: url('../assets/images/bgSM-01.png');
+}
+
+article#page-welcome{
+  background-image: url('../assets/images/bgSM-02.png');
+}
+
+}
