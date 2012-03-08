@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"the_content",
+				"the_content"
+			],
+			[
+				"the_con",
+				"the_content"
+			],
+			[
+				"get_he",
+				"get_header"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"up",
+				"upload_directory"
+			],
+			[
+				"file",
+				"file_extension"
+			],
+			[
+				"hello",
+				"hello	snippet"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"fon",
 				"font-family"
 			],
@@ -40,10 +72,6 @@
 				"echo	echo \"…\""
 			],
 			[
-				"file",
-				"filename"
-			],
-			[
 				"print",
 				"print_r"
 			],
@@ -60,10 +88,6 @@
 				"input: input - button"
 			],
 			[
-				"font",
-				"font: font-family: family"
-			],
-			[
 				"p",
 				"p: <p>"
 			]
@@ -72,55 +96,59 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "/*\nTheme Name: alexismejias\nTheme URI: http://wordpress.org/extend/themes/twentyeleven\nDescription: my test theme\nAuthor: the WordPress team\nAuthor URI: http://wordpress.org/\nVersion: 1.3\n-------------------------------------------------------------- */\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, font, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td {\n	border: 0;\n	font-family: inherit;\n	font-size: 100%;\n	font-style: inherit;\n	font-weight: inherit;\n	margin: 0;\n	outline: 0;\n	padding: 0;\n	vertical-align: baseline;\n}\n*{ margin:0;padding:0;}\n\n\n\nbody{\n	background:#1a1a1a;\n	color:#FFF;\n	font-family:Arial,Gadget , sans-serif;\n	text-align:left;\n}\n\nh1 a{text-decoration:none;color:#fff;}\na:visited, h1 a:hover{color:#fff;}\nh2{\n	font-size:30px;\n}\n\n/***************************/\n\n\n#cont{\n	width:960px;\n	margin:0 15%;\n	height:800px;\n	background:#96C63F;\n}\n#left{\n	width:260px;\n	height:800px;\n	background:#96C63F;\n	float:left;\n	padding:20px 20px 0 20px;\n}\n\n		#left h1{\n			font-family:'ChunkFiveRegular',\"Arial Black\",Arial ,Gadget,sans-serif;\n						\n			font-size:75px;\n			line-height:70px;\n			margin-bottom:15px;\n		}\n		#left p{\n			font-size:18px;\n		}\n		#left p a{\n			color:#FFFFFF;\n		}\n		#left p a:hover{\n			color:#1a1a1a;\n		}\n		\n		#nav {\n			margin:36px 0 0 0;	\n		}\n				#nav h2{\n					font-weight:bold;\n					display:inline;\n				}\n				#nav h2:hover{\n					color:#1a1a1a;\n				}\n				#nav a{\n					font-weight:bold;\n					display:inline;					\n					text-decoration:none;\n					color:#FFF;\n					}\n				#nav a:visited{\n					color:#fff;\n				}\n				#nav a:hover{color:#1a1a1a;}\n				\n		.projectsList{\n			display:;\n			list-style:none;\n			padding:0 0 0 25px;\n		}\n		\n		.projectsList li{ \n			padding:10px 0 0 0;\n		}\n		.projectsList li a{\n			text-decoration:none;\n			color:#fff;\n		}\n		\n		.projectsList li a:hover{\n			color:#1a1a1a;\n		}\n\n#right{\n	width:550px;\n	height:100%;\n	background:#1A1A1A;\n	float:left;\n}\n\n		#right h1{\n			margin:0 0 25px 0;	\n		}\n		\n		#right p{\n			width:570px;\n		}\n		#more{\n			width:374px;\n			background:#96C63F;\n			text-align:center;\n			margin:0 0 0 148px;\n			padding:10px 0;\n			display:none;\n		}\n			\n			#more h2{\n				font-weight:bold;\n				text-transform:uppercase;\n			}\n			\n		#summary,#download,#projects,#content{\n			margin:120px 0 0 50px;\n		}\n		\n		\n			\n		#summary{\n		}\n		\n		#download{\n		}\n		\n			#download a{\n				color:#FFF;\n			}\n			\n		#projects{\n		}\n		\n			.thumbRow{\n				margin:0 0 50px 50px;\n				padding:0 0 10px 0;\n				background:;\n				width:auto;\n				height:150px;\n			}\n			\n				.thumbProject {\n					float:left;\n					margin:0 25px 0 0;\n				}\n				.thumbProject:last-child{\n					margin:0;\n				}\n				\n				.thumbProject img{\n					margin:0;\n				}\n				\n				.thumbProject img + h4{\n					margin:10px 0 0 0;\n					\n				}\n						\n			#content{\n			}\n				#content h1{\n					margin:0 0 25px 0;\n				}\n			\n/*==========INDIVIDUAL PROJECTS =====================*/\n\n	\n	#pro-thumbnails{\n		float:left;\n		width:60px;\n	}\n	\n		#pro-thumbnails img{\n			margin: 0 0 15px 0;\n		}\n		\n	#pro-mainImg{\n		width:500px;\n		margin:0 0 25px 60px;\n		height:500px;\n		background-color:#000;\n		background-repeat:no-repeat;\n	}\n	\n	#pro-desc{\n		margin:45px 0 0 0;\n	}\n\n/*=====================================*/\n\n#load{\n	display:none;\n	background:url(../img/91.gif);\n	width:75px;\n	height:75px;\n}",
+			"file": "/C/wamp/www/wordpress/wp-content/themes/alexismejias/style.css",
+			"file_size": 3692,
+			"file_write_time": 129753124381503906,
 			"settings":
 			{
-				"buffer_size": 10997,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lungo.js/lungo.theme.carnival.css",
-			"settings":
-			{
-				"buffer_size": 5792,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/cygwin/home/Alexis/.ssh/id_rsa.pub",
-			"settings":
-			{
-				"buffer_size": 398,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tttt.pub",
-			"settings":
-			{
-				"buffer_size": 398,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/**\n *\n *    /$$\n *   | $$\n *   | $$       /$$   /$$ /$$$$$$$   /$$$$$$   /$$$$$$\n *   | $$      | $$  | $$| $$__  $$ /$$__  $$ /$$__  $$\n *   | $$      | $$  | $$| $$  \\ $$| $$  \\ $$| $$  \\ $$\n *   | $$      | $$  | $$| $$  | $$| $$  | $$| $$  | $$\n *   | $$$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$/\n *   |________/ \\______/ |__/  |__/ \\____  $$ \\______/\n *                                  /$$  \\ $$\n *                                 |  $$$$$$/\n *                                  \\______/\n *\n * @copyright 2011 TapQuo Inc (c)\n * @license   http://www.github.com/tapquo/lungo/blob/master/LICENSE.txt\n * @version   1.1.2\n * @link      https://github.com/TapQuo/Lungo.js\n *\n * @author   Javier Jimenez Villar <javi@tapquo.com> || @soyjavi\n * @author   Guillermo Pascual <pasku@tapquo.com> || @pasku1\n */\n\na,abbr,address,article,aside,audio,b,blockquote,body,caption,cite,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{border:0;margin:0;outline:0;padding:0;font-size:100%;}\na{color:#fff;text-decoration:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}\na:hover{opacity:1;}\nhtml{height:100%;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}\nbody{margin:0;padding:0;width:100%;height:100%;min-height:100%;overflow:hidden;font-family:Helvetica,Arial,sans-serif;font-size:13px;line-height:1.231;-webkit-touch-callout:none;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;}\nb,strong{font-weight:bold;}\nimg{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle;font-size:0;}\ntable{border-collapse:collapse;border-spacing:0;}\nth,td,caption{vertical-align:top;font-weight:normal;text-align:left;}\n*{margin:0;padding:0;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(255, 255, 255, 0);}\nsection{position:absolute;left:0px;top:0px;width:100%;height:100%;-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0);-webkit-backface-visibility:hidden;-webkit-transition:-webkit-transform 250ms cubic-bezier(0.39, 0.575, 0.565, 1);}section:first-child,section.show{-webkit-transform:translate3d(0%, 0, 0);transform:translate3d(0%, 0, 0);}\nsection.hide{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0);}\nheader,footer{position:absolute;left:0px;width:100%;height:38px;display:block;z-index:2;line-height:38px;}\nheader{top:0px;}\nfooter{bottom:0px;}\nheader .title,footer .title{margin:0 8px;float:left;z-index:-1;font-size:1.15em;font-weight:bold;}\nheader .title{position:absolute;left:0px;right:0px;text-align:center;display:inline-block;}\nsection header a.button,section footer a.button{margin:3px 3px auto 4px;}\nsection header a.button.icon,section footer a.button.icon{width:17px;}\nnav{height:inherit;text-align:center;}nav a{padding:0 6px;z-index:1000;float:left;}nav a .icon{font-size:2.1em;line-height:38px;display:inline-block;}\nnav a abbr,nav a .description{position:relative;bottom:5px;margin-left:2px;display:none;font-size:1.0em;}\nnav a.current abbr{display:inline;}\nnav .bubble{position:relative;top:-16px;left:-10px;margin-right:-20px;}\n.toolbar{height:48px;display:block;}.toolbar nav{display:block;}\n.toolbar a{padding:0;}\n.toolbar .icon{display:block;font-size:2.5em;line-height:48px;}\n.toolbar .bubble{top:-54px;left:6px;padding:1px 4px;}\naside{position:absolute;top:0px;bottom:0px;height:auto;width:256px;opacity:0;z-index:0;}\naside.show{opacity:1;}\nheader~aside{padding-top:40px;}\nfooter~aside{padding-bottom:40px;}\naside~article{-webkit-transform:translate3d(0px, 0, 0);transform:translate3d(0px, 0, 0);-webkit-transition:-webkit-transform 250ms cubic-bezier(0.39, 0.575, 0.565, 1);}\naside a{display:block;width:244px;height:40px;padding:0 6px;font-size:1.1em;font-weight:bold;line-height:40px;}\naside .icon{width:28px;height:28px;float:left;margin:8px 6px 0 0;font-size:1.9em;line-height:1.0em;text-align:center;}\naside .anchor{font-weight:bold;padding:3px 10px 4px;}\naside .bubble{float:right;margin:12px 4px 0 0;}\n@media handheld, only screen and (min-width: 768px){[data-target=\"aside\"]{display:none !important;} aside{opacity:1;} aside~article{width:auto !important;left:256px;right:0px !important;}}article{position:absolute;width:inherit;height:inherit;top:0px;bottom:0px;display:block;z-index:0;opacity:0;}\nheader~article{top:40px;}\nfooter~article{bottom:40px;}\narticle.current{z-index:1;opacity:1;}\narticle.aside{-webkit-transform:translate3d(256px, 0, 0);transform:translate3d(256px, 0, 0);}\n@media handheld, only screen and (min-width: 768px){article.aside{-webkit-transform:translate3d(0px, 0, 0);transform:translate3d(0px, 0, 0);}}article .title{font-size:1.1em;margin:0px 0 4px;}\narticle .title .icon{margin-right:4px;}\narticle .text{margin:4px 0 8px;display:block;font-size:0.9em;font-weight:normal;line-height:1.4em;}\n.list{width:inherit;font-size:1.15em;}.list a{display:block;}\n.list li:not(.toolbar){padding:8px 6px 8px 8px;list-style-type:none;}.list li:not(.toolbar) .icon,.list li:not(.toolbar) img{float:left;width:32px;height:32px;margin-right:6px;font-size:36px;font-weight:normal;}\n.list .icon,.list img{display:inline-block;}\n.list small{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:0.85em;}\n.list li.anchor{font-size:0.85em;padding:4px 4px 3px;}.list li.anchor .icon{width:14px !important;height:14px !important;margin-right:2px !important;font-size:1.6em !important;line-height:14px !important;}\n.list li.anchor .bubble{display:none;}\n.list .tip{font-size:0.85em;font-weight:bold;}\n.list .search input{width:88%;}\n.list .search a{float:right;height:30px;margin:0px;padding:0px;}.list .search a icon{height:12px;width:30px;margin:0px;font-size:1.2em;font-weight:normal;}\n.list .onright{font-size:0.75em;line-height:16px;}\n.list .onright .icon,.list small .icon{font-size:1.4em !important;line-height:16px;height:14px !important;width:14px !important;margin-right:0px !important;}\n.scrollable{position:absolute;display:block;width:100%;height:100%;}\n.scroll{overflow:scroll;-webkit-overflow-scrolling:touch;}\n.onleft{float:left;}\n.onright{float:right;}\n.indented{width:auto;height:auto;padding:10px 10px 0px;}\n.indented ul{margin-bottom:10px;height:auto;width:inherit;}\n.rounded ul{-webkit-border-radius:4px;border-radius:4px;-webkit-background-clip:padding-box;background-clip:padding-box;}\n.rounded li:first-child{-webkit-border-radius:4px 4px 0px 0px;border-radius:4px 4px 0px 0px;-webkit-background-clip:padding-box;background-clip:padding-box;}\n.rounded li:last-child{-webkit-border-radius:0px 0px 4px 4px;border-radius:0px 0px 4px 4px;-webkit-background-clip:padding-box;background-clip:padding-box;}\n.margin-top-4{margin-top:4px;}\n.hidden{display:none;}\n.semi-opacity{opacity:0.5;}\n.size32{font-size:32px;height:32px;width:32px;line-height:32px;}\n.mini{font-size:20px !important;height:16px !important;width:16px !important;line-height:16px !important;}\n.framed{border:2px solid #fff;}\n.round{-webkit-border-radius:4px;border-radius:4px;-webkit-background-clip:padding-box;background-clip:padding-box;}\n.bubble{padding:2px 4px 1px;-webkit-border-radius:1px;border-radius:1px;-webkit-background-clip:padding-box;background-clip:padding-box;font-size:0.8em;font-weight:bold;line-height:1.0em;}\n.splash{text-align:center;font-size:1.2em;}\n.splash img{max-width:206px;margin:92px auto 32px;}\n.splash h1{margin:92px auto 16px;font-size:2.2em;font-weight:bold;}\n.splash .button.big{margin-top:16px;}\n.splash .copyright{position:fixed;width:100%;bottom:8px;left:0px;font-size:0.8em;font-style:normal;}\na.button{display:inline-block;height:31px;padding:0 9px 0 8px;color:#fff !important;outline:none;background:#5a5a5a;-webkit-user-select:none;user-select:none;font-weight:bold;line-height:32px;text-align:center;text-decoration:none;}a.button:active{background:#4b4b4b;}\na.button:disabled,a.button.disabled{background:rgba(255, 255, 255, 0.2);color:#999 !important;}\na.button .icon{float:left;width:17px;height:30px;font-size:1.5em;line-height:31px;}\na.button.big{position:relative;height:30px;width:100%;margin-bottom:4px;padding:6px 0;font-size:16px;line-height:31px;}a.button.big .icon{width:20px;height:28px;line-height:32px;margin-left:0.6em;margin-right:-48px;}\n.form,form{width:inherit !important;}\nlabel{font-size:0.8em;line-height:27px;}\ninput:not([type=checkbox]),textarea,select{display:inline-block;padding:5px;width:95%;margin-bottom:2px;outline:none;-webkit-appearance:none;border-radius:0px;font-size:15px;line-height:15px;font-weight:bold;-webkit-user-select:text;}\ninput[type=search]{width:86%;}input[type=search] +.button{float:right;padding:0px;width:32px;height:30px;}input[type=search] +.button .icon{font-size:22px !important;line-height:30px;}\nselect{width:100%;}\nlabel.select{position:relative;display:inline-block;width:100%;padding-top:2px;}\n.select:after{text-align:center;position:absolute;top:0;right:0;bottom:0;height:29px;width:29px;content:\"▼\";pointer-events:none;line-height:32px;margin-top:2px;}\n.no-pointer-events .select:after{content:none;}\ninput[type=\"checkbox\"],input[type=\"radio\"]{width:82px;height:27px;z-index:2;}\ninput[type=\"checkbox\"]+span::after,input[type=\"radio\"]+span::after{content:\"OFF\";}\ninput[type=\"checkbox\"]:checked+span::after,input[type=\"radio\"]:checked+span::after{content:\"ON\";}\ninput[type=\"checkbox\"]+span,input[type=\"radio\"]+span,input[type=\"checkbox\"]+span::before,input[type=\"radio\"]+span::before,input[type=\"checkbox\"]+span::after,input[type=\"radio\"]+span::after{display:inline-block;}\ninput[type=\"checkbox\"]+span::before,input[type=\"radio\"]+span::before,input[type=\"checkbox\"]+span::after,input[type=\"radio\"]+span::after,input[type=\"checkbox\"]:checked+span::before,input[type=\"radio\"]:checked+span::before,input[type=\"checkbox\"]:checked+span::after,input[type=\"radio\"]:checked+span::after{top:0;}\ninput[type=\"checkbox\"]+span::after,input[type=\"radio\"]+span::after,input[type=\"checkbox\"]:checked+span::before,input[type=\"radio\"]:checked+span::before{right:0;}\ninput[type=\"checkbox\"]+span::before,input[type=\"radio\"]+span::before,input[type=\"checkbox\"]:checked+span::after,input[type=\"radio\"]:checked+span::after{left:0;}\ninput[type=\"checkbox\"],input[type=\"radio\"],input[type=\"checkbox\"]+span::before,input[type=\"radio\"]+span::before,input[type=\"checkbox\"]+span::after,input[type=\"radio\"]+span::after{position:absolute;}\ninput[type=\"checkbox\"],input[type=\"radio\"]{-webkit-opacity:0;opacity:0;}\ninput[type=\"checkbox\"]+span,input[type=\"radio\"]+span{width:82px;height:27px;position:relative;font-size:11px;line-height:29px;font-weight:bold;text-transform:uppercase;text-indent:-9999px;}\ninput[type=\"checkbox\"]+span::before,input[type=\"radio\"]+span::before{content:\"\";width:41px;height:27px;}\ninput[type=\"checkbox\"]+span::after,input[type=\"radio\"]+span::after{text-indent:0;width:41px;height:27px;text-align:center;box-shadow:0px 1px 0px #fff, 0px 2px 0px #d2d2d2;}\ninput[type=\"checkbox\"]:checked+span::before,input[type=\"radio\"]:checked+span::before{left:auto;}\ninput[type=\"checkbox\"]:checked+span::after,input[type=\"radio\"]:checked+span::after{height:27px;}\n@media screen and (-webkit-min-device-pixel-ratio:0){.custom-select select{padding-right:30px;}}\na.grey,.grey{background-color:#cccccc;}\na.grey:active{background-color:#b5b5b5;}\na.black,.grey{background-color:#000000;}\na.black:active{background-color:#000000;}\na.red,.red{background-color:#e33100;}\na.red:active{background-color:#c5280f;}\na.lightgreen,.lightgreen{background-color:#91bd09;}\na.lightgreen:active{background-color:#7ea41a;}\na.green,.green{background-color:#009600;}\na.green:active{background-color:#00770e;}\na.blue,.blue{background-color:#237fd7;}\na.blue:active{background-color:#1a69b6;}\na.arcticblue,.arcticblue{background-color:#2daebf;}\na.arcticblue:active{background-color:#238e9e;}\na.orange,.orange{background-color:#ff5c00;}\na.orange:active{background-color:#da4e15;}\na.purple,.purple{background-color:#7b658d;}\na.purple:active{background-color:#574765;}\na.magenta,.magenta{background-color:#a9014b;}\na.magenta:active{background-color:#831239;}\na.pink,.pink{background-color:#ff007f;}\na.pink:active{background-color:#de2870;}\na.yellow,.yellow{background-color:#ffb515;}\na.yellow:active{background-color:#dfa020;}\na.twitter,.twitter:not(span){background-color:#35cdff;}\na.twitter:active{background-color:#2bafda;}\na.facebook,.facebook:not(span){background-color:#3b5998;}\na.facebook:active{background-color:#2c4579;}\nli.grey{box-shadow:inset 3px 0px 0px #cccccc;}\nli.black{box-shadow:inset 3px 0px 0px #000000;}\nli.red{box-shadow:inset 3px 0px 0px #e33100;}\nli.lightgreen{box-shadow:inset 3px 0px 0px #91bd09;}\nli.green{box-shadow:inset 3px 0px 0px #009600;}\nli.blue{box-shadow:inset 3px 0px 0px #237fd7;}\nli.arcticblue{box-shadow:inset 3px 0px 0px #2daebf;}\nli.orange{box-shadow:inset 3px 0px 0px #ff5c00;}\nli.purple{box-shadow:inset 3px 0px 0px #7b658d;}\nli.magenta{box-shadow:inset 3px 0px 0px #a9014b;}\nli.pink{box-shadow:inset 3px 0px 0px #ff007f;}\nli.yellow{box-shadow:inset 3px 0px 0px #ffb515;}\nli.twitter{box-shadow:inset 3px 0px 0px #35cdff;}\nli.facebook{box-shadow:inset 3px 0px 0px #3b5998;}\n@font-face{font-family:'icon';src:url(data:font/truetype;charset=utf-8;base64,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) format('truetype');font-weight:normal;font-style:normal;}.icon{color:inherit;font-weight:normal !important;line-height:normal;font-family:'icon';}\n.icon.map:before{content:'0';}\n.icon.clock:before{content:'1';}\n.icon.calendar:before{content:'2';}\n.icon.message:before{content:'3';}\n.icon.chat:before{content:'4';}\n.icon.user:before{content:'5';}\n.icon.group:before{content:'6';}\n.icon.loading:before{content:'7';}\n.icon.refresh:before{content:'8';}\n.icon.search:before{content:'9';}\n.icon.pushpin:before{content:'A';}\n.icon.star:before{content:'B';}\n.icon.heart:before{content:'C';}\n.icon.warning:before{content:'D';}\n.icon.add:before{content:'E';}\n.icon.remove:before{content:'F';}\n.icon.question:before{content:'G';}\n.icon.info:before{content:'H';}\n.icon.check:before{content:'I';}\n.icon.substract:before{content:'J';}\n.icon.close:before{content:'K';}\n.icon.plus:before{content:'L';}\n.icon.up:before{content:'M';}\n.icon.down:before{content:'N';}\n.icon.left:before{content:'O';}\n.icon.right:before{content:'P';}\n.icon.home:before{content:'Q';}\n.icon.pencil:before{content:'R';}\n.icon.edit:before{content:'S';}\n.icon.picture:before{content:'T';}\n.icon.camera:before{content:'U';}\n.icon.music:before{content:'V';}\n.icon.wifi:before{content:'W';}\n.icon.file:before{content:'X';}\n.icon.files:before{content:'Y';}\n.icon.folder:before{content:'Z';}\n.icon.key:before{content:'a';}\n.icon.settings:before{content:'b';}\n.icon.chart:before{content:'c';}\n.icon.trash:before{content:'d';}\n.icon.target:before{content:'e';}\n.icon.items:before{content:'f';}\n.icon.download:before{content:'g';}\n.icon.upload:before{content:'h';}\n.icon.basket:before{content:'i';}\n.icon.phone:before{content:'j';}\n.icon.mail:before{content:'k';}\n.icon.tag:before{content:'l';}\n",
-			"file": "lungo.js/lungo-1.1.2.min.css",
-			"file_size": 25804,
-			"file_write_time": 129747391267871093,
-			"settings":
-			{
-				"buffer_size": 25753,
-				"line_ending": "Unix"
+				"buffer_size": 3466,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"synphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"s php",
+				"Set Syntax: PHP"
+			],
+			[
+				"new raw",
+				"z:AAAPackageDev: New Raw Snippet"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: fil",
+				"Snippet: FILES['…']"
+			],
 			[
 				"renam",
 				"Quick Rename: Rename Current File"
@@ -132,14 +160,6 @@
 			[
 				"key m",
 				"Set Syntax: Sublime Text Key Map"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"pack",
@@ -164,10 +184,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"li",
-				"Package Control: List Packages"
 			],
 			[
 				"pa",
@@ -290,7 +306,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 552.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -307,17 +323,60 @@
 	},
 	"file_history":
 	[
+		"/D/Users/Alexis/Dropbox/www/wordpress/wp-content/themes/alexismejias/Contact.php",
+		"/D/Users/Alexis/Dropbox/www/wordpress/wp-content/themes/alexismejias/Portfolio.php",
+		"/C/wamp/www/wordpress/wp-content/themes/alexismejias/Page.php",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/snippets/php.sublime-snippet",
+		"/D/Users/Alexis/Dropbox/www/wordpress/wp-content/themes/alexismejias/Single.php",
+		"/D/Users/Alexis/Dropbox/www/wordpress/.htaccess",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/$_ajax.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/snippets/s.sublime-snippet",
+		"/C/wamp/www/wordpress/wp-content/themes/alexismejias/index.htmlBAK",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/includes/contact_form_constants.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/includes/constants.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/contact_form.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/mailtest.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.smtp.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.phpmailer.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/newsletter.php",
+		"/D/Users/Alexis/Desktop/find_toolbar_tweaks-3.0.0-fx/chrome/content/findbartweaks.xml",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/includes/newsletter_c.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.main.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.newsletter.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.Membership.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.Mysql.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/login.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/panel.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.upload.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/contact_form_upload.php",
+		"/D/Users/Alexis/Dropbox/www/new_site/contact.php",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.chip_upload.php",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/php var.sublime-snippet",
+		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/tab",
+		"/D/Users/Alexis/Dropbox/www/new_site/services.php",
+		"/D/Users/Alexis/Dropbox/Spring 12/Senior/Coney Island/mobile site/lungo.js/lungo.theme.carnival.css",
+		"/D/Users/Alexis/Dropbox/Spring 12/Senior/Coney Island/mobile site/index.html",
+		"/D/Users/Alexis/Dropbox/Spring 12/Senior/Coney Island/mobile site/lungo.js/lungo-1.1.2.min.css",
+		"/D/Users/Alexis/Dropbox/awdaaw/RDK.SF",
+		"/D/Users/Alexis/Dropbox/Spring 12/Senior/Coney Island/mobile site/tttt.pub",
+		"/C/cygwin/home/Alexis/.ssh/id_rsa.pub",
+		"/D/Users/Alexis/Dropbox/awdaaw/AUTHOR.EC",
+		"/D/Users/Alexis/Dropbox/awdaaw/MANIFEST.MF",
+		"/D/Users/Alexis/Dropbox/www/new_site/js/individuals/contact.js",
+		"/D/Users/Alexis/Dropbox/awdaaw/AUTHOR.SF",
+		"/D/Users/Alexis/Dropbox/awdaaw/RDK.EC",
 		"/D/Users/Alexis/Desktop/TradeGothicLTStd-Bold/demo.html",
 		"/D/Users/Alexis/Desktop/TradeGothicLTStd-Bold/fonts.css",
 		"/D/Users/Alexis/Dropbox/homepage/Homepage.html",
 		"/D/Users/Alexis/Dropbox/Spring 12/Senior/Coney Island/mobile site/lungo.js/lungo.theme.default.css",
 		"/D/Users/Alexis/Desktop/TapQuo-Lungo.js-97d93ce/examples/kitchen-sink/index.html",
-		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default (Windows).sublime-keymap",
-		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
 		"/C/wamp/www/new_site/php/includes/contact_form_constants.php",
-		"/D/Users/Alexis/Dropbox/www/new_site/php/contact_form.php",
 		"/C/wamp/www/new_site/contact.php",
 		"/C/wamp/www/new_site/js/individuals/Contact.js",
 		"/C/wamp/www/new_site/php/includes/constants.php",
@@ -325,10 +384,8 @@
 		"/C/wamp/www/new_site/css/styles.less",
 		"/D/Users/Alexis/Dropbox/www/new_site/js/validation/additional-methods.min.js",
 		"/C/wamp/www/new_site/php/contact_form.php",
-		"/D/Users/Alexis/Dropbox/www/new_site/php/classes/class.main.php",
 		"/D/Users/Alexis/Dropbox/www/new_site/php/server.php",
 		"/C/wamp/www/new_site/resources.php",
-		"/D/Users/Alexis/Dropbox/www/new_site/services.php",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zencoding/zen_settings.py",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/LESS/LESS.tmLanguage",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/CSS/CSS.tmLanguage",
@@ -351,11 +408,8 @@
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/package-metadata.json",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/simple-selector.sublime-snippet",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/event-live.sublime-snippet",
-		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/$_ajax.sublime-snippet",
 		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/.gitignore",
-		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
 		"/C/wamp/www/new_site/css/text.css",
-		"/D/Users/Alexis/Dropbox/www/new_site/contact.php",
 		"/C/wamp/www/new_site/services.php",
 		"/C/wamp/www/new_site/php/classes/class.main.php",
 		"/C/wamp/www/new_site/php/wasdwasd.php",
@@ -396,39 +450,11 @@
 		"/C/cygwin/etc/skel/.bashrc",
 		"/C/Users/Alexis/.ssh/id_rsa.pub",
 		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/index.html",
-		"/D/Users/Alexis/Dropbox/www/Experiments/transit/transit test.html",
-		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
-		"/C/cygwin/home/Alexis/.ssh/id_rsa.pub",
-		"/D/Users/Alexis/Desktop/test_project/index.html",
-		"/C/cygwin/etc/defaults/etc/skel/.bashrc",
-		"/D/Users/Alexis/Dropbox/www/Experiments/README",
-		"/D/Users/Alexis/Dropbox/www/Experiments/index.html",
-		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/app/app.js",
-		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/app/events.js",
-		"/D/Users/Alexis/Desktop/LungoJS-App-1.0.4/app/view.js",
-		"/D/Users/Alexis/Desktop/transit test.html",
-		"/D/Users/Alexis/Dropbox/phonegap db/index.js",
-		"/D/Users/Alexis/Dropbox/phonegap db/index.html",
-		"/D/Alexis/workspace/helloPhoneGap2/assets/www/index.html",
-		"/D/Alexis/workspace/helloPhoneGap2/assets/www/index.js",
-		"/D/Users/Alexis/Desktop/PhoneGap/PhoneGap/Android-PhoneGap-AlternativeTo/assets/www/index.html",
-		"/C/wamp/www/ci/application/config/index.html",
-		"/C/wamp/www/ci/application/config/autoload.php",
-		"/C/wamp/www/ci/application/index.html",
-		"/C/wamp/www/ci/application/controllers/index.html",
-		"/C/wamp/www/ci/application/views/test.php",
-		"/C/wamp/www/ci/application/controllers/welcome.php",
-		"/C/wamp/www/new_site/php/main_functions.php",
-		"/D/Users/Alexis/Desktop/improved_swagbucks.user.js",
-		"/C/wamp/www/new_site/index.php",
-		"/D/Users/Alexis/Desktop/yt-link-sirius.js",
-		"/C/Users/Alexis/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
-		"/D/Users/Alexis/Desktop/paper/index.html",
-		"/D/Users/Alexis/Desktop/new_site.lnk"
+		"/D/Users/Alexis/Dropbox/www/Experiments/transit/transit test.html"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -445,6 +471,54 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hostnam",
+			"case",
+			"close",
+			"111",
+			"phpmailerexc",
+			">HOST",
+			"fail",
+			"smtpau",
+			"host",
+			"path",
+			"jpg",
+			"file_max_si",
+			"size",
+			"ctrl+l\"",
+			"\"end\"",
+			"end\"",
+			"end",
+			"ctrl+l\"",
+			"ctrl+l",
+			"succ",
+			"$files",
+			"files",
+			"$files",
+			"get_upload",
+			"get_uplload",
+			"allowed_s",
+			"echo",
+			"header",
+			"size",
+			".$",
+			"allowed",
+			"file'",
+			"crtl+k",
+			"enter",
+			"insert_s",
+			"alt+shift+w",
+			"snippet",
+			"tab",
+			"header",
+			"ssl",
+			"smtpD",
+			"-->",
+			"--",
+			"-->",
+			"no off",
+			"media",
+			"<a href",
+			"                <",
 			"}",
 			"ancho",
 			"red",
@@ -515,7 +589,7 @@
 			"",
 			"5"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -524,154 +598,32 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/C/wamp/www/wordpress/wp-content/themes/alexismejias/style.css",
 					"settings":
 					{
-						"buffer_size": 10997,
-						"regions":
-						{
-							"mark":
-							{
-								"flags": 144,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										2819,
-										2819
-									]
-								],
-								"scope": "mark"
-							}
-						},
-						"selection":
-						[
-							[
-								2721,
-								2721
-							]
-						],
-						"settings":
-						{
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lungo.js/lungo.theme.carnival.css",
-					"settings":
-					{
-						"buffer_size": 5792,
+						"buffer_size": 3466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5334,
-								5334
+								688,
+								676
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3240.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/cygwin/home/Alexis/.ssh/id_rsa.pub",
-					"settings":
-					{
-						"buffer_size": 398,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								70
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "tttt.pub",
-					"settings":
-					{
-						"buffer_size": 398,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8,
-								397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 1496.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "lungo.js/lungo-1.1.2.min.css",
-					"settings":
-					{
-						"buffer_size": 25753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13245,
-								13250
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 74605.0,
-						"translation.y": 2098.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -770,7 +722,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 262.0,
 	"status_bar_visible": true
 }
